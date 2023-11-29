@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Categories.BrgyCategories"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/general_back_icon" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B A R A N G G A Y S"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/taytay_tiangge"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="@string/taytay_tiangge"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image1"/>
+            <RatingBar
+                android:id="@+id/school_rating1"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title1"/>
+
+            <TextView
+                android:id="@+id/school_desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating1"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/taytay_tiangge_desc"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/taytay_tiangge"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="@string/taytay_tiangge"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image2"/>
+            <RatingBar
+                android:id="@+id/school_rating2"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title2"/>
+
+            <TextView
+                android:id="@+id/school_desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/taytay_tiangge_desc"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

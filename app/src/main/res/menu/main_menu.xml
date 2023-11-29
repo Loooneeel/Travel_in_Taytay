@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/menu_dashboard_icon"
+        android:id="@+id/nav_home"
+        android:title="Home" />
+    <item
+        android:icon="@drawable/menu_search_icon"
+        android:id="@+id/nav_search"
+        android:title="Search" />
+    <item
+        android:icon="@drawable/menu_categories_icon"
+        android:id="@+id/nav_all_categories"
+        android:title="All Categories" />
+
+</group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/restaurant_icon"
+                    android:id="@+id/nav_restaurants"
+                    android:title="Restaurant" />
+                <item
+                    android:icon="@drawable/brgy_icon"
+                    android:id="@+id/nav_bank"
+                    android:title="Baranggays" />
+                <item
+                    android:icon="@drawable/school_icon"
+                    android:id="@+id/nav_education"
+                    android:title="Schools" />
+                <item
+                    android:icon="@drawable/shop_icon"
+                    android:id="@+id/nav_shop"
+                    android:title="Shops" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/menu_logout_icon"
+                    android:id="@+id/nav_exit"
+                    android:title="Exit" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

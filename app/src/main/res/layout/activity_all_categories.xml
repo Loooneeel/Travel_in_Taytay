@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".User.AllCategories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/general_back_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="S C H O O L S"
+                android:textSize="20sp"
+                android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/school_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B A R A N G G A Y S"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandBrgy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/brgy_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R E S T A U R A N T S"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandRestaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/restaurant_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H O S P I T A L S"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandHospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/hospital_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S H O P S"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandShops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/shop_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R E S O R T"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandResort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/resort_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C H U R C H"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:padding="25dp"/>
+            <Button
+                android:id="@+id/expandChurch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expand all"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/church_icon"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

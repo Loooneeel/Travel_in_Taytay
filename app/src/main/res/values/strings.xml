@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Travel in Taytay</string>
+    <string name="let_s_get_started">LET\'S GET STARTED!</string>
+
+    <string name="first_slide_title">Search Places in Taytay Rizal</string>
+    <string name="second_slide_title">Explore Taytay Rizal</string>
+    <string name="third_slide_title">Sit Back and relax</string>
+
+    <string name="first_slide_desc">View and Search all destinations, activities, attractions, restaurants, and tour guides.</string>
+    <string name="second_slide_desc">Lets you know of establishments, attractions or events near where you are</string>
+    <string name="third_slide_desc">Manage your travel easy and safe</string>
+    <string name="skip_btn">skip</string>
+    <string name="app_logo">Travel in Taytay</string>
+    <string name="search_text">Search...</string>
+    <string name="taytay_tiangge_desc">Taytay, Rizal is known as the Garments Capital of the Philippines and is home to the increasingly popular Taytay Tiangge. Thanks to an initiative by the local Taytay government in 2014, Taytay-based dressmakers who used to rent space in Baclaran, Divisoria, and Greenhills now have a more conducive business location right in their backyard. Since then, the Taytay Tiangge has become a shopper’s paradise and a godsend for wholesalers.</string>
+    <string name="taytay_tiangge">Taytay tiangge</string>
+    <string name="Info_in_taytay">This app allows you to view and search all destinations, attractions, restaurants, and tour guides</string>
+    <string name="see_the_beauty_of_taytay_rizal">See the beauty of Taytay Rizal</string>
+</resources>

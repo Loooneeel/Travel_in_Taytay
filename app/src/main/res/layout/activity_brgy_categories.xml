@@ -21,6 +21,7 @@
                 android:layout_centerVertical="true"
                 android:padding="15dp"
                 android:src="@drawable/general_back_icon" />
+
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +41,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/taytay_tiangge"
+                android:src="@drawable/brgy_staana"
                 android:layout_marginTop="5dp" />
             <TextView
                 android:id="@+id/schools_title1"
@@ -48,7 +49,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:lineHeight="23dp"
-                android:text="@string/taytay_tiangge"
+                android:text="Barangay Sta Ana, Taytay Rizal"
+                android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:layout_below="@+id/school_image1"/>
@@ -72,7 +74,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/taytay_tiangge_desc"
+                android:text="@string/brgyStana"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 
@@ -88,7 +90,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/taytay_tiangge"
+                android:src="@drawable/brgy_sanjuan"
                 android:layout_marginTop="5dp" />
             <TextView
                 android:id="@+id/schools_title2"
@@ -96,7 +98,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:lineHeight="23dp"
-                android:text="@string/taytay_tiangge"
+                android:text="Barangay San Juan, Taytay Rizal"
+                android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:layout_below="@+id/school_image2"/>
@@ -119,7 +122,151 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/taytay_tiangge_desc"
+                android:text="@string/brgySanjuan"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image3"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/brgy_sanisidro"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="Barangay San Isidro, Taytay Rizal"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image3"/>
+            <RatingBar
+                android:id="@+id/school_rating3"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title3"/>
+
+            <TextView
+                android:id="@+id/school_desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/brgySanisidro"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image4"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/brgy_dolores"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="Barangay Dolores, Taytay Rizal"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image4"/>
+            <RatingBar
+                android:id="@+id/school_rating4"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title4"/>
+
+            <TextView
+                android:id="@+id/school_desc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating4"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/brgyDolores"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image5"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/brgy_muzon"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:textAllCaps="true"
+                android:text="Barangay Muzon, Taytay Rizal"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image5"/>
+            <RatingBar
+                android:id="@+id/school_rating5"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title5"/>
+
+            <TextView
+                android:id="@+id/school_desc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/brgyMuzon"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 

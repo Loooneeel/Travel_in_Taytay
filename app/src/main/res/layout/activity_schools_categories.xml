@@ -74,7 +74,54 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="description"
+                android:text="@string/urs"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image3"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/school_icct"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="ICCT COLLEGES - TAYTAY CAMPUS"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image3"/>
+            <RatingBar
+                android:id="@+id/school_rating3"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title3"/>
+
+            <TextView
+                android:id="@+id/school_desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/icct"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 
@@ -90,7 +137,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/school_taytaynationalhs"
+                android:src="@drawable/school_siena"
                 android:layout_marginTop="5dp" />
             <TextView
                 android:id="@+id/schools_title2"
@@ -98,7 +145,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:lineHeight="23dp"
-                android:text="TAYTAY NATIONAL HIGH SCHOOL"
+                android:text="Siena College of Taytay"
+                android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:layout_below="@+id/school_image2"/>
@@ -121,12 +169,109 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="description"
+                android:text="@string/siena"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 
 
         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image4"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/school_collageofarts"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="College of Arts &amp; Sciences of Asia &amp; the Pacific"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image4"/>
+            <RatingBar
+                android:id="@+id/school_rating4"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title4"/>
+
+            <TextView
+                android:id="@+id/school_desc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating4"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/collageofarts"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image5"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/school_ncb"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="National College of Business and Arts"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image5"/>
+            <RatingBar
+                android:id="@+id/school_rating5"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title5"/>
+
+            <TextView
+                android:id="@+id/school_desc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/ncb"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+
 
     </LinearLayout>
 

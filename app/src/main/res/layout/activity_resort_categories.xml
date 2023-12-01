@@ -49,6 +49,7 @@
                 android:layout_margin="10dp"
                 android:lineHeight="23dp"
                 android:text="Club Manila East"
+                android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:layout_below="@+id/shop_image1"/>
@@ -72,7 +73,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="description"
+                android:text="Description"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 

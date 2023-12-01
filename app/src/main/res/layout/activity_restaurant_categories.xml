@@ -40,7 +40,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/taytay_tiangge"
+                android:src="@drawable/resto_bahaykawayan"
                 android:layout_marginTop="5dp" />
             <TextView
                 android:id="@+id/schools_title1"
@@ -48,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:lineHeight="23dp"
-                android:text="@string/taytay_tiangge"
+                android:text="Bahay Kawayan Restauran"
+                android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:layout_below="@+id/school_image1"/>
@@ -72,7 +73,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/taytay_tiangge_desc"
+                android:text="@string/bahaykawayan"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 
@@ -88,7 +89,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/taytay_tiangge"
+                android:src="@drawable/resto_catalan"
                 android:layout_marginTop="5dp" />
             <TextView
                 android:id="@+id/schools_title2"
@@ -96,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:lineHeight="23dp"
-                android:text="@string/taytay_tiangge"
+                android:text="Catalan Grill &amp; Restaurant"
+                android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:layout_below="@+id/school_image2"/>
@@ -119,7 +121,151 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/taytay_tiangge_desc"
+                android:text="@string/catalangrill"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image3"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/resto_kinakap"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="Kinakap Bar And Restaurant"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image3"/>
+            <RatingBar
+                android:id="@+id/school_rating3"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title3"/>
+
+            <TextView
+                android:id="@+id/school_desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/kinakap"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image4"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/resto_matteo"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="MATTEO'S RESTAURANT TAYTAY"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image4"/>
+            <RatingBar
+                android:id="@+id/school_rating4"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title4"/>
+
+            <TextView
+                android:id="@+id/school_desc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating4"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/matteos"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/color55"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/school_image5"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/resto_tyvogrill"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:id="@+id/schools_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineHeight="23dp"
+                android:text="Tyvo Grill &amp; Cafe Taytay"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_below="@+id/school_image5"/>
+            <RatingBar
+                android:id="@+id/school_rating5"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4.5"
+                android:layout_below="@+id/schools_title5"/>
+
+            <TextView
+                android:id="@+id/school_desc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_rating5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/tyvo"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 

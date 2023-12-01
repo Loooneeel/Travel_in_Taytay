@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".User.Categories.RestaurantCategories"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/lightblueback">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Description"
+                android:text="@string/resortDesc"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 

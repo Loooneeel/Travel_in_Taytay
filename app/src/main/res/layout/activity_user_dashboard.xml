@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/lightblueback"
         android:theme="@style/navigationTheme"
         app:headerLayout="@layout/menu_header"
         app:menu="@menu/main_menu"/>
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/colorPrimary">
+        android:background="@drawable/lightblueback">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -203,7 +203,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:background="@color/colorPrimary">
+                android:background="@color/color55">
                 <LinearLayout
                     android:background="@color/color55"
                     android:id="@+id/featured_background"
@@ -233,7 +233,7 @@
                         android:text="@string/Info_in_taytay"/>
                 </LinearLayout>
                 <androidx.recyclerview.widget.RecyclerView
-                    android:background="@color/colorPrimary"
+                    android:background="@color/color55"
                     android:id="@+id/featured_recycler"
                     android:layout_height="300dp"
                     android:layout_toRightOf="@id/featured_background"

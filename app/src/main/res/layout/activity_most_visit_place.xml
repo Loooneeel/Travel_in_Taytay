@@ -73,7 +73,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/taytay_tiangge_desc"
+                android:text="@string/shop_taytaytiangge_desc"
                 android:textSize="12dp"
                 tools:ignore="TextSizeCheck" />
 

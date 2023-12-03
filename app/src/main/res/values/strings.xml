@@ -3,13 +3,12 @@
     <string name="let_s_get_started">LET\'S GET STARTED!</string>
     <string name="app_logo">Travel in Taytay</string>
     <string name="search_text">Search...</string>
-    <string name="taytay_tiangge_desc">Taytay, Rizal is known as the Garments Capital of the Philippines and is home to the increasingly popular Taytay Tiangge. Thanks to an initiative by the local Taytay government in 2014, Taytay-based dressmakers who used to rent space in Baclaran, Divisoria, and Greenhills now have a more conducive business location right in their backyard. Since then, the Taytay Tiangge has become a shopper’s paradise and a godsend for wholesalers.</string>
     <string name="taytay_tiangge">Taytay tiangge</string>
     <string name="Info_in_taytay">This app allows you to view and search all destinations, attractions, restaurants, and tour guides</string>
     <string name="see_the_beauty_of_taytay_rizal">See the beauty of Taytay Rizal</string>
 
     //Brgy
-    <string name="brgyStana">Description</string>
+    <string name="brgyStana">Ang Address ko ay taytay\nito ang Description ko</string>
     <string name="brgySanjuan">Description</string>
     <string name="brgySanisidro">Description</string>
     <string name="brgyMuzon">Description</string>
@@ -31,7 +30,7 @@
     <string name="siena">Description</string>
     <string name="urs">Description</string>
     //Restaurant
-    <string name="bahaykawayan">Description</string>
+    <string name="bahaykawayan">Address\nDescription</string>
     <string name="catalangrill">Description</string>
     <string name="matteos">Description</string>
     <string name="kinakap">Description</string>
@@ -40,10 +39,8 @@
     <string name="resortDesc">Description</string>
     //Shop
     <string name="shopDesc">Description</string>
+    <string name="shop_taytaytiangge_desc">Description</string>
     //Shop
-
-
-
 
 
 </resources>

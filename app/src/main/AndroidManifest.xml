@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Travel_in_Taytay"
         tools:targetApi="34">
         <activity
+            android:name=".Admin.Register"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Login"
+            android:exported="false" />
+        <activity
             android:name=".User.Categories.ChurchCategories"
             android:exported="false" />
         <activity
@@ -41,9 +47,6 @@
             android:exported="false" />
         <activity
             android:name=".User.AllCategories"
-            android:exported="false" />
-        <activity
-            android:name=".Common.Onboarding"
             android:exported="false" />
         <activity
             android:name=".User.UserDashboard"

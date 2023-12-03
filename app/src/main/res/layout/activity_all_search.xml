@@ -25,11 +25,10 @@
                 android:src="@drawable/general_back_icon" />
         </RelativeLayout>
         <androidx.appcompat.widget.SearchView
-            android:id="@+id/sear_bar"
+            android:id="@+id/search_bar1"
             app:queryHint="Search Place"
             android:background="@color/white"
             android:elevation="8dp"
-            android:layout_below="@id/app_name"
             android:layout_height="40dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
@@ -44,7 +43,16 @@
                 android:layout_marginEnd="15dp"
                 android:layout_width="30dp"
                 android:src="@drawable/search_icon" />
+
         </androidx.appcompat.widget.SearchView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_recycler"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

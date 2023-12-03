@@ -23,6 +23,9 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.project.travel_in_taytay.Admin.Login;
 import com.project.travel_in_taytay.HelperClasses.HomeAdapter.FeaturedAdapter;
 import com.project.travel_in_taytay.HelperClasses.HomeAdapter.FeaturedHelperClass;
 import com.project.travel_in_taytay.HelperClasses.HomeAdapter.MostViewedAdpater;
@@ -37,6 +40,8 @@ import java.util.ArrayList;
 
 public class UserDashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     static final float END_SCALE = 0.7f;
+    FirebaseAuth auth;
+    FirebaseUser user;
     RecyclerView mostViewedRecycler,featuredRecycler;
     RecyclerView.Adapter adapter;
     //Drawer Menu
@@ -61,6 +66,15 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         //listView = findViewById(R.id.list_place);
 
         //Hooks
+
+        auth = FirebaseAuth.getInstance();
+        user = auth.getCurrentUser();
+        if(user == null){
+            Intent openResto = new Intent(getApplicationContext(), Login.class);
+            startActivity(openResto);
+            finish();
+        }
+
         featuredRecycler = findViewById(R.id.featured_recycler);
         mostViewedRecycler = findViewById(R.id.most_viewed_recycler);
 
@@ -205,6 +219,13 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         }
         else if (item.getItemId() == R.id.nav_shop) {
             startActivity(new Intent(getApplicationContext(), ShopCategories.class));
+        }
+        else if (item.getItemId() == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
+                Intent openLogin = new Intent(getApplicationContext(), Login.class);
+                startActivity(openLogin);
+                finish();
+
         }
         else if (item.getItemId() == R.id.nav_exit) {
             final AlertDialog.Builder builder = new AlertDialog.Builder(this);

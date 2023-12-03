@@ -190,9 +190,10 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         mostViewedRecycler.setHasFixedSize(true);
         mostViewedRecycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         ArrayList<MostViewedHelperClass> mostViewedLocations = new ArrayList<>();
-        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.taytay_tiangge, "Taytay Tiangge","Visit Here"));
-        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.club_manila_east, "Club Manila east", "Visit Here"));
         mostViewedLocations.add(new MostViewedHelperClass(R.drawable.shop_sm_city_taytay, "Sm City Taytay", "Visit Here"));
+        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.taytay_tiangge, "Taytay Tiangge","Visit Here"));
+        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.resto_matteo, "Matteo's Restaurant", "Visit Here"));
+
         adapter = new MostViewedAdpater(mostViewedLocations);
         mostViewedRecycler.setAdapter(adapter);
     }

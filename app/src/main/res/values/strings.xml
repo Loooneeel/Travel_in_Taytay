@@ -8,21 +8,21 @@
     <string name="see_the_beauty_of_taytay_rizal">See the beauty of Taytay Rizal</string>
 
     //Brgy
-    <string name="brgyStana">Ang Address ko ay taytay\nito ang Description ko</string>
-    <string name="brgySanjuan">Description</string>
-    <string name="brgySanisidro">Description</string>
-    <string name="brgyMuzon">Description</string>
-    <string name="brgyDolores">Description</string>
+    <string name="brgyStana">Address: H48G+5MV, Taytay, 1920 Metro Manila, Philippines(via google maps)\nDescription: Sta. Ana is a barangay in the municipality of Taytay, province of Rizal.</string>
+    <string name="brgySanjuan">Address: 1920 Tanchoco Ave, Taytay, 1920 Metro Manila, Philippines(via google maps)\nDescription: San Juan is a barangay in the municipality of Taytay, province of Rizal.</string>
+    <string name="brgySanisidro">Address: Santos compd.2, Rizal, Philippines(via google maps)\nDescription: San Isidro is a barangay in the municipality of Taytay, province of Rizal.</string>
+    <string name="brgyMuzon">Address: G4VV+GR4, Manila E Rd, Muzon, Taytay, 1920 Rizal, Philippines(via google maps)\nDescription: Muzon is a barangay in the municipality of Taytay, province of Rizal.</string>
+    <string name="brgyDolores">Address: Barangay Dolores Hall, 78 Mahinhin, Taytay, 1920 Rizal, Philippines(via google maps)\nDescription: Dolores is a barangay in the municipality of Taytay, province of Rizal.</string>
     //Church
-    <string name="sanLorenzo">Description</string>
-    <string name="sanFilipe">Description</string>
-    <string name="stjonh">Description</string>
-    <string name="kingParish">Description</string>
+    <string name="sanLorenzo">Address: G4V5+6F3, Ejercito Ave, Taytay, 1920 Rizal(via google maps)\nDescription: San Lorenzo Ruiz Parish Church is a Roman Catholic parish church located in Taytay, Rizal, Philippines.</string>
+    <string name="sanFilipe">Address: H43C+527, Blk 3 - Suha St, Taytay, 1920 Rizal(via google maps)\nDescription: The Church of San Felipe Neri, commonly known as "La Profesa" (English: the Professed house), is a Roman Catholic parish church located in Taytay, Rizal, Philippines.</string>
+    <string name="stjonh">Address: H4CJ+9WH, J. Sumulong, Taytay, 1920 Rizal(via google maps)\nDescription: St. John the Baptist Parish Church, also known as Parokya ni San Juan Bautista, is a Roman Catholic church located in Taytay, Rizal, Philippines.</string>
+    <string name="kingParish">Address: Hills, Dela Cuesta, Muzon, Taytay, 1920 Rizal(via google maps)\nDescription: Christ the King Parish Church is a Catholic church on a hill in Taytay, Rizal, Philippines.</string>
     //Hospital
-    <string name="taytaydocs">Description</string>
-    <string name="taytayemer">Description</string>
-    <string name="taytaymanilaeast">Description</string>
-    <string name="taytayrphs">Description</string>
+    <string name="taytaydocs">Address: 6 Rizal Ave, Taytay, 1920 Rizal(via google maps)\nDescription: Taytay Doctors Multispecialty Hospital was created by a group of doctors whose objective was to deliver quality and cost effective health care services.</string>
+    <string name="taytayemer">Address: H4CJ+9H9, Taytay, 1920 Rizal(via google maps)\nDescription: Taytay Emergency Hospital is a hospital in Municipality of Taytay, Rizal, Calabarzon located on J. Asilo.</string>
+    <string name="taytaymanilaeast">Address: Kay Tikling, Manila East Medical Center, Manila E Rd, Taytay, 1920 Rizal(via google maps)\nDescription: The first Tertiary Hospital in the province of Rizal, strategically located to serve and be in front of health care services to the people of Taytay and nearby municipalities and cities.</string>
+    <string name="taytayrphs">Address: 5 J. Sumulong, Taytay, 1920 Rizal(via google maps)\nDescription: The Rizal Medical Center (formerly The Rizal Provincial Hospital) is a DOH-retained Level III hospital</string>
     //School
     <string name="collageofarts">Description</string>
     <string name="icct">Description</string>

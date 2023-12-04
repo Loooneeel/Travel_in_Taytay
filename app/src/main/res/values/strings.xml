@@ -3,7 +3,7 @@
     <string name="let_s_get_started">LET\'S GET STARTED!</string>
     <string name="app_logo">Travel in Taytay</string>
     <string name="search_text">Search...</string>
-    <string name="taytay_tiangge">Taytay tiangge</string>
+    <string name="taytay_tiangge">TAYTAY TIANGGE</string>
     <string name="Info_in_taytay">This app allows you to view and search all destinations, attractions, restaurants, and tour guides</string>
     <string name="see_the_beauty_of_taytay_rizal">See the beauty of Taytay Rizal</string>
 
@@ -24,22 +24,22 @@
     <string name="taytaymanilaeast">Address: Kay Tikling, Manila East Medical Center, Manila E Rd, Taytay, 1920 Rizal(via google maps)\nDescription: The first Tertiary Hospital in the province of Rizal, strategically located to serve and be in front of health care services to the people of Taytay and nearby municipalities and cities.</string>
     <string name="taytayrphs">Address: 5 J. Sumulong, Taytay, 1920 Rizal(via google maps)\nDescription: The Rizal Medical Center (formerly The Rizal Provincial Hospital) is a DOH-retained Level III hospital</string>
     //School
-    <string name="collageofarts">Description</string>
-    <string name="icct">Description</string>
-    <string name="ncb">Description</string>
-    <string name="siena">Description</string>
-    <string name="urs">Description</string>
+    <string name="collageofarts">>Address: JEM Bldg., Rizal Ave, Taytay, 1920 Rizal(via google maps)\nDescription: (CASAP) is a private educational institution in the Philippines. It has 5 separate campuses nationwide.</string>
+    <string name="icct">Address: 128 Cabrera Rd, Taytay, 1920 Rizal(via google maps)\nDescription: ICCT Colleges, is a tertiary education provider with campuses located in Taytay, Rizal, Philippines.</string>
+    <string name="ncb">Address: San Juan Ilog Pugad Rizal Ave, Taytay, 1920 Rizal(via google maps)\nDescription: The National College of Business and Arts or NCBA is a private educational institution in the Philippines.</string>
+    <string name="siena">Address: 83 E Rodriguez Ave, Taytay, 1920 Rizal(via google maps)\nDescription: Siena College of Taytay, is a private, non-profit Catholic basic and higher education institution run by the Congregation of the Dominican Sisters of St. Catherine of Siena in Taytay, Rizal, Philippines</string>
+    <string name="urs">Address: G4XF+3RW, Taytay, 1920 Rizal(via google maps)\nDescription: University of Rizal System – Taytay (URS - Taytay) is a public academic institution based in Taytay, Rizal.</string>
     //Restaurant
-    <string name="bahaykawayan">Address\nDescription</string>
-    <string name="catalangrill">Description</string>
-    <string name="matteos">Description</string>
-    <string name="kinakap">Description</string>
-    <string name="tyvo">Description</string>
+    <string name="bahaykawayan">Address: G4XF+3RW, Taytay, 1920 Rizal(via google maps)\nDescription: University of Rizal System – Taytay (URS - Taytay) is a public academic institution based in Taytay, Rizal.</string>
+    <string name="catalangrill">Address: Ground Floor, AMJC BLDG, Sitio Ilog Pugad, National Road, Taytay, 1920 Rizal(via google maps)\nDescription: Catalan Grill and Restaurant is a family-operated establishment that caters to people from different parts of the country and all levels of society in general.</string>
+    <string name="matteos">Address: G4XF+3RW, Taytay, 1920 Rizal(via google maps)\nDescription: University of Rizal System – Taytay (URS - Taytay) is a public academic institution based in Taytay, Rizal.</string>
+    <string name="kinakap">Address:  Taytay, 1920 Rizal(via google maps)\nDescription: Kinakap Bar and Restaurant, located in Manila East Area, offers a cozy nipa hut-style dining and drinking area for small groups.</string>
+    <string name="tyvo">Address: Pulumbarit, corner Rizal Ave, Taytay, 1920 Rizal(via google maps)\nDescription: Tyvo Grill and Cafe also offers a wide variety of menus from sizzling plates, pizza, and pasta to refreshing drinks and coffee.</string>
     //Resort
-    <string name="resortDesc">Description</string>
+    <string name="resortDesc">Address: Don Hilario Cruz, Taytay, 1920 Rizal(via google maps)\nDescription: Club Manila east is a resort-hotel water park located in the municipality of Taytay, Rizal.</string>
     //Shop
-    <string name="shopDesc">Description</string>
-    <string name="shop_taytaytiangge_desc">Description</string>
+    <string name="shopDesc">Address: Taytay Diversion Rd, Taytay, 1920 Metro Manila(via google maps)\nDescription: SM City Taytay is a shopping mall owned and operated by SM Prime Holdings.</string>
+    <string name="shop_taytaytiangge_desc">Address: Taytay, 1920 Rizal(via google maps)\nDescription: Taytay Municipal Tiangge, a series of small stalls that usually sell cheaper items, considered as a haven by people who love affordable clothes and dresses, entitling the town itself as the Garments Capital of the Philippines.</string>
     //Shop
 
 
